@@ -2,7 +2,7 @@ import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia as SocialMediaData } from "@/data"; // Rename socialMedia to SocialMediaData or use an alias
 
 import MagicButton from "./MagicButton";
-import FooterGrid from "@/components/FooterGrid"; // Corrected import name
+import FooterGrid from "@/components/FotterGrid"; // Corrected import name
 
 const Footer = () => {
   const handleLinkClick = (link: string) => {
