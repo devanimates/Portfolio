@@ -13,11 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Concept & Planning Phase:"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="During this initial phase, we focus on brainstorming ideas, defining project goals, and outlining the scope. It's a collaborative process where we gather requirements, clarify objectives, and create a solid foundation for the project's development."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Storyboarding & Visualization Phase:"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="In this phase, I bring the concept to life through storyboarding and visualization. I create detailed storyboards that outline the sequence of scenes, camera angles, character expressions, and key actions. This step is crucial for visualizing the narrative flow and ensuring consistency in storytelling."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Animation & Refinement Phase:"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Here's where the magic of animation happens. Using industry-standard software and techniques, I animate characters, backgrounds, and visual effects according to the approved storyboard. This phase includes refining movements, adding transitions, and ensuring that the animation captures the intended emotion and dynamics."
         >
           <CanvasRevealEffect
             animationSpeed={3}

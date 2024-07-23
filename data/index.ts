@@ -11,7 +11,7 @@ export const gridItems = [
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full ",
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "Expertise",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Creative Animator Bringing Imagination to Life",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Working on Fiverr as a 2D Animator",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -63,140 +63,149 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    titleClassName: "justify-center md:max-w-full max-w-180 text-center",
     img: "",
     spareImg: "",
   },
 ];
 
+export const footerGrid=[
+  {
+    id: 6,
+    title: "Do you want to start a project together?",
+    description: "",
+    className: "lg:col-span-6 md:col-span-3 md:row-span-1 place-content-center",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-180 text-center",
+    img: "",
+    spareImg: "",
+  },
+  
+];
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "2d Animated Explainer Video For Automated Release Notes",
+    des: "Explore the automated release notes process through this engaging 2D animated explainer video.",
+    img: "/pic1.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "www.behance.net/gallery/190367047/2d-Animated-Explainer-Video-For-Automated-Release-Notes",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "2d Animated Explainer Video Streamlined Scheduling with Rooster",
+    des: "Discover how Rooster streamlines scheduling tasks with this informative 2D animated explainer video.",
+    img: "/pic2.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "www.behance.net/gallery/190365979/Streamlined-Scheduling-with-Rooster",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "2d Animated Explainer Video Atoka : Data Analysis Through Animation",
+    des: "Explore data analysis concepts with Atoka through this captivating 2D animated explainer video.",
+    img: "/pic3.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "www.behance.net/gallery/190174185/Atoka-Data-Anaylysis-Through-Animation",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "2d Animated Explainer Video Christmas",
+    des: "Celebrate the spirit of Christmas with this delightful 2D animated explainer video.",
+    img: "/pic4.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "www.behance.net/gallery/202939759/2D-Animated-Explainer-Video",
   },
 ];
 
+
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Working with Touqeer was a breeze. His creative flair and attention to detail brought our characters to life in ways we never imagined. His dedication to perfection is unmatched, making him an invaluable asset to any animation project.",
+    name: "Emily Rodriguez",
+    title: "Creative Director at PixelSpark Animation Studio",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Touqeer's expertise in animation surpassed our expectations. His ability to understand our vision and translate it into captivating visuals was impressive. His professionalism and commitment to quality make him a standout animator.",
+    name: "David Lee",
+    title: "CEO of MotionCraft Studios",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "It was a pleasure collaborating with Touqeer on our latest project. His innovative approach and technical skills added a new dimension to our animations. Touqeer's dedication and reliability make him a trusted partner in the animation industry.",
+    name: "Sarah Thompson",
+    title: "Production Manager at DreamWorks Animation",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Touqeer's animations exceeded our expectations. His ability to convey emotion through movement is unparalleled. Working with him was a pleasure from start to finish, and his attention to detail is unmatched.",
+    name: "John Smith",
+    title: "Creative Director at Animatronix Studios",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Touqeer's animations brought our storyboards to life with precision and creativity. His collaborative spirit and dedication to quality ensured a smooth and successful project delivery. I look forward to working with him again.",
+    name: "Emma Davis",
+    title: "Producer at CartoonMagic Productions",
   },
 ];
 
 export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  // {
+  //   id: 1,
+  //   name: "cloudinary",
+  //   img: "/ae.png",
+  //   nameImg: "/cloudName.svg",
+  // },
+  // {
+  //   id: 2,
+  //   name: "appwrite",
+  //   img: "/app.svg",
+  //   nameImg: "/appName.svg",
+  // },
+  // {
+  //   id: 3,
+  //   name: "HOSTINGER",
+  //   img: "/host.svg",
+  //   nameImg: "/hostName.svg",
+  // },
+  // {
+  //   id: 4,
+  //   name: "stream",
+  //   img: "/s.svg",
+  //   nameImg: "/streamName.svg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "docker.",
+  //   img: "/dock.svg",
+  //   nameImg: "/dockerName.svg",
+  // },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Storyboard Artist",
+    desc: "Created detailed storyboards for animated sequences, ensuring visual storytelling aligned with director's vision.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Character Animator",
+    desc: "Animated characters for various projects, focusing on movement, expressions, and personality traits to bring them to life.",
+    className: "",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Background Artist",
+    desc: "Designed and painted backgrounds for animated scenes, maintaining artistic consistency and enhancing visual narrative.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
+    title: "Freelance Animator",
+    desc: "Developed animations for clients across diverse industries, from concept creation through to final delivery, ensuring high-quality results.",
+    className: "",
     thumbnail: "/exp4.svg",
   },
 ];
@@ -204,14 +213,22 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/behance.svg",
+    link:"https://www.behance.net/touqeerumer",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/drive.svg",
+    link:"https://drive.google.com/drive/folders/1ASL1gD9s2lmjC_4giMjlywZ-SBOSmc5U",
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"http://www.linkedin.com/in/touqeerumer",
   },
+  {
+    id: 4,
+    img: "/gmail.svg",
+    link: "mailto:mtouqeerumer@gmail.com",
+},
 ];

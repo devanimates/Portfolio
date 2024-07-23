@@ -112,6 +112,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ```typescript
 export const navItems = [
+  { name: "Home", link: "#about" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -151,7 +152,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Creative Animator Bringing Imagination to Life",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
