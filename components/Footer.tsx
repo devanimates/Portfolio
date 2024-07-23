@@ -1,10 +1,11 @@
 import { FaLocationArrow } from "react-icons/fa";
-import { socialMedia } from "@/data";
+import { socialMedia as SocialMediaData } from "@/data"; // Rename socialMedia to SocialMediaData or use an alias
+
 import MagicButton from "./MagicButton";
-import FooterGrid from "@/components/FotterGrid"; // Corrected import name
+import FooterGrid from "@/components/FooterGrid"; // Corrected import name
 
 const Footer = () => {
-  const handleLinkClick = (link) => {
+  const handleLinkClick = (link: string) => {
     if (link.startsWith('mailto:')) {
       window.location.href = link; // Opens mailto links directly
     } else {
@@ -46,7 +47,7 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
-          {socialMedia.map((info) => (
+          {SocialMediaData.map((info) => (
             <a
               key={info.id}
               href={info.link.startsWith('http') ? info.link : `http://${info.link}`}
